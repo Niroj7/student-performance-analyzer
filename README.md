@@ -1,84 +1,81 @@
-## 🚀 Live Streamlit Dashboard
-🔗 https://students-preformance.streamlit.app/
+# 📊 Student Performance Analyzer  
+**Interactive dashboard for analyzing student grades, averages, subject-wise trends, and top performers using Python + Streamlit.**
 
-<!-- Banner -->
+---
+
+## 🌐 **Live Dashboard**
+👉 https://students-preformance.streamlit.app/
+
+---
+
+## 🖼️ Banner  
 <p align="center">
   <img src="banner.png" width="100%" />
 </p>
 
-# 📊 Student Performance Analyzer
+---
 
-An interactive **Student Performance Analyzer** built with **Python + Streamlit**.  
-It processes student grade data, computes insights, and visualizes academic trends using  
-clean charts and dashboards.
+# 📘 Overview  
+The **Student Performance Analyzer** helps you explore and visualize classroom performance through:
 
-This tool helps identify:
-- Top-performing students  
-- Subject-wise strengths/weaknesses  
-- Class-level statistics  
-- Grade distribution  
-- Performance comparisons  
+- Automatic calculations (averages, grades, top/lowest performers)
+- Interactive charts and dashboards
+- Student comparison tools
+- CSV export & data processing
+
+Built using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Streamlit**.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 ### ✔️ **1. Automatic Calculations**
 - Per-subject averages  
-- Highest and lowest scoring students  
-- Class wide average  
+- Class-wide average score  
+- Highest & lowest scoring students  
 - Automatic A–F grade assignment  
-- Outlier detection support  
 
-### ✔️ **2. Interactive Visual Charts**
-- 📊 Subject-wise average score bar chart  
-- 📉 Highest vs lowest scoring subjects  
-- 🏅 Top 10 student performance chart  
-- 🥧 Grade distribution pie chart  
-- 📈 Histogram of average score distribution  
-- 🧩 Combined chart showing top 3 students per subject  
+### ✔️ **2. Visual Charts**
+- Subject-wise averages  
+- Highest/lowest performance  
+- Top 10 students leaderboard  
+- Grade distribution pie chart  
+- Histogram of average scores  
+- Comparison line charts  
 
 ### ✔️ **3. Streamlit Dashboard**
-- Clean UI with easy navigation  
-- Upload CSV & automatically analyze data  
-- Compare two individual students  
-- Compare multiple students together  
-- Download cleaned / processed CSV  
-- Automatically refreshes charts on data upload  
+- Sidebar navigation  
+- Compare two students  
+- Compare multiple students  
+- Download cleaned CSV  
+- Auto-refresh on upload  
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 student-performance-analyzer/
 │
-├── 📄 [Students_grade.csv](./Students_grade.csv)
-│     └── Raw dataset containing student exam scores.
+├── Students_grade.csv # Raw dataset
+├── dashboard.py # Streamlit UI
+├── grade_analyzer.py # Logic for calculations
+├── requirements.txt # Dependencies
 │
-├── 🧮 [grade_analyzer.py](./grade_analyzer.py)
-│     └── Core logic for calculations (averages, grading, analytics).
+├── Screenshots/ # Dashboard images
+│ ├── AVERAGE SCORE.png
+│ ├── STUDENT PERFORMANMCE SUBJECTWISE.png
+│ ├── SUBJECT SCORE TRENDS.png
+│ ├── TOP PERFORMER.png
+│ ├── STUDENTS COMPARASION.png
 │
-├── 📊 [dashboard.py](./dashboard.py)
-│     └── Streamlit dashboard UI for charts, comparisons, and insights.
-│
-├── 📝 [README.md](./README.md)
-│     └── Main documentation for the project.
-│
-├── 🖼️ charts/
-│     ├── [subject_average_scores.png](./subject_average_scores.png)
-│     ├── [subject_highest_lowest_scores.png](./subject_highest_lowest_scores.png)
-│     ├── [top10_students.png](./top10_students.png)
-│     ├── [grade_distribution_pie.png](./grade_distribution_pie.png)
-│     ├── [average_score_distribution.png](./average_score_distribution.png)
-│     ├── [top3_subjects.png](./top3_subjects.png)
-│     └── Pre-generated charts used in the README & dashboard.
-│
-└── 📦 [requirements.txt](./requirements.txt)
-      └── Python dependencies required to run the project.
+└── README.
+
+
 
 ---
 
-## 🛠️ Technologies Used
+# 🧰 Technologies Used
+
 - **Python**
 - **Streamlit**
 - **Pandas**
@@ -88,19 +85,50 @@ student-performance-analyzer/
 
 ---
 
-## ▶️ How to Run Locally
+# 🖥️ Dashboard Screenshots
 
-### 1️⃣ Clone the repository
+## 📌 Class Overview  
+<img src="Screenshots/AVERAGE SCORE.png" width="85%" />
+
+---
+
+## 📌 Subject-Wise Performance  
+<img src="Screenshots/STUDENT PERFORMANMCE SUBJECT.png" width="85%" />
+
+---
+
+## 📌 Subject Score Trends  
+<img src="Screenshots/SUBJECT SCORE TRENDS.png" width="85%" />
+
+---
+
+## 📌 Top 10 Students  
+<img src="Screenshots/TOP PERFORMER.png" width="85%" />
+
+---
+
+## 📌 Student Comparison  
+<img src="Screenshots/STUDENTS COMPARASION.png" width="85%" />
+
+---
+
+# ▶️ How to Run Locally
+
+### **1. Clone the repo**
 ```bash
 git clone https://github.com/Niroj7/student-performance-analyzer.git
 cd student-performance-analyzer
 
-Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Streamlit dashboard
+3. Run Streamlit app
 streamlit run dashboard.py
 
-🧪 Sample Dataset
+📥 Dataset
+The sample student dataset is available in:
+Students_grade.csv
 
-A sample dataset (Students_grade.csv) is included so you can run everything instantly.
+
+
+
