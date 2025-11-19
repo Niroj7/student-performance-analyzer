@@ -43,41 +43,39 @@ An interactive analytics dashboard built using **Python, Pandas, Matplotlib, and
 
 # 🖼️ Dashboard Screenshots
 
-### 📌 Class Overview  
+# 🖼️ Dashboard Screenshots
+
+---
+
+## 📌 Class Overview
 <p align="center">
   <img src="screenshots/AVERAGE SCORE.png" width="90%">
 </p>
 
 ---
 
-### 📌 Subject-Wise Performance  
+## 📌 Subject-Wise Performance
 <p align="center">
   <img src="screenshots/STUDENT PERFORMANMCE SUBJECTWISE.png" width="90%">
 </p>
 
 ---
 
-### 📌 Subject Score Trends  
+## 📌 Subject Score Trends
 <p align="center">
   <img src="screenshots/SUBJECT SCORE TRENDS.png" width="90%">
 </p>
 
 ---
 
-### 📌 Top 10 Students  
+## 📌 Top 10 Students
 <p align="center">
   <img src="screenshots/TOP PERFORMER.png" width="90%">
 </p>
 
 ---
 
-### 📌 Student Comparison  
+## 📌 Student Comparison
 <p align="center">
   <img src="screenshots/STUDENTS COMPARASION.png" width="90%">
 </p>
-
----
-
-# 🧱 Project Structure
-
-
