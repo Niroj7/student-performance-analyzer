@@ -41,15 +41,22 @@ insightful charts — all in a clean dashboard.
 ---
 
 ## 📁 Project Structure
-student-performance-analyzer
-┣ 📄 Students_grade.csv
-┣ 📄 grade_analyzer.py
-┣ 📄 dashboard.py
-┣ 🖼️ charts/
-┃ ┣ subject_average_scores.png
-┃ ┣ subject_highest_lowest_scores.png
-┃ ┣ top10_students.png
-┃ ┣ grade_distribution_pie.png
-┃ ┣ average_score_distribution.png
-┃ ┣ top3_subjects.png
-┗ 📄 README.md
+
+student-performance-analyzer/
+│
+├── Students_grade.csv
+├── grade_analyzer.py
+├── dashboard.py
+├── README.md
+│
+├── charts/
+│   ├── subject_average_scores.png
+│   ├── subject_highest_lowest_scores.png
+│   ├── top10_students.png
+│   ├── grade_distribution_pie.png
+│   ├── average_score_distribution.png
+│   └── top3_subjects.png
+│
+└── processed/
+    └── (Optional) cleaned or transformed CSV files
+
