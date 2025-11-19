@@ -1,5 +1,6 @@
 # 📊 Student Performance Analyzer  
-**Interactive dashboard for analyzing student grades, averages, subject-wise trends, and top performers using Python + Streamlit.**
+An interactive data dashboard built with Python, Pandas, and Streamlit to analyze student grades, visualize subject trends, and compare performance.
+Showcases strong skills in data analysis, visualization, and building user-friendly dashboards that turn raw data into clear insights.
 
 ---
 
@@ -8,12 +9,7 @@
 
 ---
 
-## 🖼️ Banner  
-<p align="center">
-  <img src="banner.png" width="100%" />
-</p>
 
----
 
 # 📘 Overview  
 The **Student Performance Analyzer** helps you explore and visualize classroom performance through:
@@ -53,6 +49,7 @@ Built using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Streamlit**
 ---
 
 # 📁 Project Structure
+```
 
 student-performance-analyzer/
 │
@@ -69,7 +66,7 @@ student-performance-analyzer/
 │ ├── STUDENTS COMPARASION.png
 │
 └── README.
-
+```
 
 
 ---
@@ -81,7 +78,6 @@ student-performance-analyzer/
 - **Pandas**
 - **NumPy**
 - **Matplotlib**
-- **Plotly**
 
 ---
 
@@ -93,7 +89,7 @@ student-performance-analyzer/
 ---
 
 ## 📌 Subject-Wise Performance  
-<img src="Screenshots/STUDENT PERFORMANMCE SUBJECT.png" width="85%" />
+<img width="925" height="679" alt="STUDENT PERFORAMNCE SUBJECTWISE" src="https://github.com/user-attachments/assets/fa8a8fb0-b537-474d-86f0-97bdf4cb143c" />
 
 ---
 
@@ -112,22 +108,30 @@ student-performance-analyzer/
 
 ---
 
-# ▶️ How to Run Locally
+## 🖥️ How to Run Locally
+---
 
-### **1. Clone the repo**
+### 🔵 Step 1 – Clone the Repository
 ```bash
 git clone https://github.com/Niroj7/student-performance-analyzer.git
 cd student-performance-analyzer
+```
 
-2. Install dependencies
+<b>🟡 Step 2 – Install Dependencies</b>
+```
 pip install -r requirements.txt
-
-3. Run Streamlit app
+```
+<b>🟢 Step 3 – Run the Streamlit App</b>
+```
 streamlit run dashboard.py
-
-📥 Dataset
-The sample student dataset is available in:
+```
+📥<b> Dataset (Included)</b>
+<i>The sample student dataset is available in the repository:</i>
+```
 Students_grade.csv
+```
+
+
 
 
 
