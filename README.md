@@ -24,6 +24,7 @@ Built using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Streamlit**
 ---
 
 # 🚀 Features
+-------
 
 ### ✔️ **1. Automatic Calculations**
 - Per-subject averages  
